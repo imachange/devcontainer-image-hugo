@@ -1,0 +1,18 @@
+{
+    "image": "node:20-bookworm-slim",
+    "hostRequirements": {
+        "cpus": 2
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot",
+                "github.copilot-chat"
+            ]
+        }
+    }
+}
+// 参照: https://zenn.dev/mizuki901/articles/slim-devcontainers
